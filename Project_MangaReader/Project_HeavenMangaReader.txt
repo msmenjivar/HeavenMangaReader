@@ -1,0 +1,72 @@
+Step 1: Define the Scope and Features
+First, let's outline the core features you want for your website. Here are some suggestions:
+
+User Authentication: Allow users to sign up, log in, and log out.
+// Used passport.js
+// Used cypress for automation to run test. -> npx cypress open
+// MongoDB for database mongoose.
+
+I've decided on the following:
+1. Frontend Framework: React
+2. Styling: CSS Frameworks: Tailwind CSS
+3. State Management: Redux
+4. Backend: Node.js with Express(already using)
+5. Database: MongoDB(already using)
+6. Hosting: Frontend: Vercel
+	    Backend: Vercel
+7. Github: (already using)
+
+
+Manga Library: Display a collection of mangas that users can browse.
+Reading Interface: A page where users can read manga chapters.
+Search and Filter: Allow users to search for specific mangas or filter by genre.
+User Profile: A basic profile page where users can see their reading history or favorite mangas.
+You can add or remove features based on what you feel comfortable with.
+
+Step 2: Choose the Technology Stack
+Since you're using Visual Studio Code, a good stack for this project could be:
+
+Frontend: HTML, CSS, JavaScript (React or plain JavaScript)
+Backend: Node.js with Express (easy for beginners and popular for web apps)
+Database: MongoDB (a good choice for storing user data and manga information)
+Authentication: Use libraries like Passport.js for handling user authentication.
+Hosting: GitHub Pages for frontend, and a free tier on services like Heroku or Vercel for the backend.
+Step 3: Set Up GitHub and Version Control
+Since you’re new to GitHub, I’ll guide you through the basics:
+
+Create a GitHub Repository:
+Go to GitHub, click on “New” to create a new repository.
+Name your repository (e.g., manga-reader), set it to public, and add a README if you like.
+Clone Your Repository Locally:
+Open Visual Studio Code and use the terminal to clone your repo with:
+bash
+Copy code
+git clone https://github.com/your-username/manga-reader.git
+Basic Git Commands:
+git status - Check the status of your repository.
+git add . - Add changes to be committed.
+git commit -m "Initial commit" - Commit your changes with a message.
+git push - Push your changes to GitHub.
+Step 4: Project Setup and Initial Code
+Initialize Your Project:
+
+For the backend, create a new folder and run npm init to set up your Node.js project.
+Install Express: npm install express
+For the frontend, create a basic HTML page or set up React with npx create-react-app.
+Set Up Your Basic Routes:
+
+Set up basic routes in Express (e.g., /login, /signup, /mangas).
+Build the Frontend:
+
+Start with the login page and manga library.
+Style it using CSS or a framework like Bootstrap.
+Step 5: Implement Features Incrementally
+Start small and add features one by one. Test each feature thoroughly before moving on to the next. For instance, first set up user authentication, then move on to displaying the manga library.
+
+Step 6: Deploy and Showcase
+Deploy your frontend to GitHub Pages.
+Deploy your backend to Heroku or another service.
+Test your website to make sure everything works as expected.
+Add your project to your GitHub portfolio with a detailed README that explains what the project does, the technology used, and how recruiters can check it out.
+
+Login: U: moises.menjivar P:123456
